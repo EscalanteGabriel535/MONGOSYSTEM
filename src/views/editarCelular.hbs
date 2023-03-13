@@ -1,0 +1,52 @@
+<h1>Modifica Profesor</h1>
+<form action="/updateCelulares/{{celulares._id}}" method="POST">
+
+     <div>
+
+        <label for="clave">Clave:</label>
+        <input type="text" name="clave" placeholder="clave"
+        value="{{celulares.clave}}">
+    </div>
+
+    <div>
+        <label for="marca">marca:</label>
+        <input type="text" name="marca" placeholder="Marca"
+        value="{{celulares.marca}}">
+    </div>
+<br>
+    <div>
+        <label for="precio">Precio:</label>
+        <input type="text" name="precio" placeholder="Precio"
+        value="{{celulares.precio}}">
+    </div>
+<br>
+    <div>
+        <label for="fecha de lanzamiento">Fecha Lanzamiento:</label>
+        <input type="text" name="fecha de lanzamiento" placeholder="Fecha de lanzamiento"
+        value="{{celulares.fechaLanzamiento}}">
+    </div>
+<br>
+   
+     <div>
+        <label for="ram">RAM:</label>
+        <input type="date" name="ram" placeholder="RAM"
+        value="{{celulares.ram}}}">
+    </div>
+<br>
+   <div>
+
+        <label for="almacenamiento">Almacenamiento:</label>
+        <input type="text" name="almacenamiento" placeholder="Almacenamiento"
+        value="{{profesores.direccion}}">
+    </div>
+
+
+    <div>
+
+        <label for="cantidadCamaras">Cantidad de camaras:</label>
+        <input type="text" name="cantidadCamaras" placeholder="Cantidad de Ccamaras"
+        value="{{celulares.cantidadCamaras}}">
+    </div>
+
+    <button>Actualizar</button>
+</form>
